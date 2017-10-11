@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
+            let alertController = UIAlertController(title: nil, message: nil,
+                                                    preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "CLOSE", style: .default, handler: nil)
+            okAction.setValue(UIColor.orange, forKey: "titleTextColor")
+            alertController.addAction(okAction)
+
+            alertController.contentViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "contentViewController")
+            
+            self.present(alertController, animated: true, completion: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {

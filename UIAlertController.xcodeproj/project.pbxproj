@@ -12,6 +12,7 @@
 		AF38A6211F874830002CEAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF38A61F1F874830002CEAE9 /* Main.storyboard */; };
 		AF38A6231F874831002CEAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF38A6221F874831002CEAE9 /* Assets.xcassets */; };
 		AF38A6261F874831002CEAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF38A6241F874831002CEAE9 /* LaunchScreen.storyboard */; };
+		AFC4AFAB1F8F077B007D23EF /* UIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC4AFAA1F8F077B007D23EF /* UIAlertController.m */; };
 		AFDDD91F1F8774570041BFFE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDDD91E1F8774570041BFFE /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		AF38A6271F874831002CEAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC4AFA81F8DC699007D23EF /* UIAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAlertController.h; sourceTree = "<group>"; };
 		AFC4AFA91F8DC95F007D23EF /* UIalertController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIalertController-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFC4AFAA1F8F077B007D23EF /* UIAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertController.m; sourceTree = "<group>"; };
 		AFDDD91E1F8774570041BFFE /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				AF38A6271F874831002CEAE9 /* Info.plist */,
 				AFDDD91E1F8774570041BFFE /* ContentViewController.swift */,
 				AFC4AFA81F8DC699007D23EF /* UIAlertController.h */,
+				AFC4AFAA1F8F077B007D23EF /* UIAlertController.m */,
 			);
 			path = UIAlertController;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC4AFAB1F8F077B007D23EF /* UIAlertController.m in Sources */,
 				AF38A61E1F874830002CEAE9 /* ViewController.swift in Sources */,
 				AFDDD91F1F8774570041BFFE /* ContentViewController.swift in Sources */,
 				AF38A61C1F874830002CEAE9 /* AppDelegate.swift in Sources */,

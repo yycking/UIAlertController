@@ -18,7 +18,7 @@ class ViewController: UIViewController {
             let alertController = UIAlertController(title: nil, message: nil,
                                                     preferredStyle: .alert)
             let okAction = UIAlertAction(title: "CLOSE", style: .default, handler: nil)
-            okAction.setValue(UIColor.orange, forKey: "titleTextColor")
+            okAction.titleTextColor = UIColor.orange
             alertController.addAction(okAction)
 
             alertController.contentViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "contentViewController")

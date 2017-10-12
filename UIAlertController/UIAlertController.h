@@ -11,3 +11,7 @@
 @interface UIAlertController (ContentViewController)
 @property (nonatomic,retain) UIViewController * contentViewController;
 @end
+
+@interface  UIAlertAction (titleTextColor)
+@property (nonatomic,retain) UIColor * titleTextColor;
+@end
